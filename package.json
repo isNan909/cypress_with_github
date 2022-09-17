@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run --record"
   },
   "dependencies": {
     "react": "^18.2.0",
