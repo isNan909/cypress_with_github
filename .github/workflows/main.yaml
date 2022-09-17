@@ -7,8 +7,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install modules
-        uses: npi ci
-      - name: Cypress run
+        run: npm ci
+      - name: Cypress
         uses: cypress-io/github-action@v3
         with:
           browser: chrome
